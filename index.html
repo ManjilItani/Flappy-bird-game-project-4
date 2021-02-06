@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" onclick="jump()" onload="welcome()">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flappy game</title>
+  <link href="http://fonts.cdnfonts.com/css/ubuntu-mono" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="Bear.png">
+
+</head>
+
+<body>
+  <div id="game">
+    <div id="block"></div>
+    <div id="hole"></div>
+    <img id="character" src="donald.png" alt="head">
+  </div>
+  <div class="information">
+    <h1 id="name"><u>Flappy Donald</u></h1>
+    <h1>Your score: <span id="score"></span></h1>
+    <h1>Highest score: <span id="highScore">0</span></h1>
+  </div>
+  <h2 class="information2">Instruction:</h2>
+  <h3 class="information2">Press anwhere in the screen to start the game (Click to jump)</h3>
+  <script src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
